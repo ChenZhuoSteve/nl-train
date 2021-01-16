@@ -1,0 +1,8 @@
+@mixin color {
+    color: red;
+}
+
+body {
+    margin: 0;
+    @include color;
+}
